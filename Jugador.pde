@@ -21,10 +21,4 @@ class Jugador {
     }
   }
   
-  boolean chocaCon(Enemigo enemigo) {
-    if (dist(posX, posY, enemigo.posX, enemigo.posY) <= tam/2) {
-      return true;
-    }
-    return false;
   }
-}
